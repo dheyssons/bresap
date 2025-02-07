@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image";
-import Logo from "../images/logo.png";
+import Logo from "../images/logo.webp";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
 

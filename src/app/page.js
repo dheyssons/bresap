@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Hero from "../images/hero.jpg"
+import Hero from "../images/hero.webp"
 import {CgArrowTopRight , CgChevronRight } from "react-icons/cg";
 import { ImLeaf } from "react-icons/im";
 import { BsShieldFillCheck } from "react-icons/bs";
@@ -19,7 +19,7 @@ export default function Home() {
         <div className="lg:hidden overflow-hidden absolute">
           <div className="bg-[#000000a7] absolute w-full h-full"></div>
           <video muted className="w-screen -z-10" preload="auto" autoPlay playsInline loop>
-            <source type="video/mp4" src="/video.mp4">
+            <source type="video/mp4" src="/video.webm">
             </source>
           </video>
         </div>
@@ -27,7 +27,7 @@ export default function Home() {
         {/* VIDEO */}
         <div className="hidden lg:block w-full order-1 overflow-hidden rounded-lg">
           <video muted className="place-self-end -z-10 lg:w-[80%] lg:h-[46rem] object-cover rounded-lg" preload="auto" autoPlay playsInline loop>
-            <source type="video/mp4" src="/video.mp4">
+            <source type="video/mp4" src="/video.webm">
             </source>
           </video>
         </div>

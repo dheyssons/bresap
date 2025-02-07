@@ -7,7 +7,7 @@ import { ImWhatsapp, ImInstagram, ImMail2 } from 'react-icons/im';
 
 import Link from 'next/link';
 import Image from 'next/image';
-import Logo from "../images/logo.png"
+import Logo from "../images/logo.webp"
 
 export default function Footer() {
 	return (
